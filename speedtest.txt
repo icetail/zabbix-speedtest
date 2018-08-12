@@ -1,1 +1,3 @@
-*/10 * * * * zabbix /etc/zabbix/script/zabbix_speedtest.sh #Send speedtest data to Zabbix
+* * * * * /etc/zabbix/script/zabbix_speedtest.sh #Send speedtest data to Zabbix
+#*/10 * * * * zabbix /etc/zabbix/script/zabbix_speedtest.sh #Send speedtest data to Zabbix
+
