@@ -7,7 +7,7 @@ zabbix_sender="/usr/bin/zabbix_sender"		# Path to zabbix-sender
 zabbix_config="/etc/zabbix/zabbix_agentd.conf"	# Path to the zabbix-agentd.conf 
 
 # run speedtest-cli and create temporary log
-$stc_cmd --simple --server 3997 | egrep "Download|Upload" | awk '{OFS="\t";print $2}' > $stc_log
+$stc_cmd --simple --server 12372 | egrep "Download|Upload" | awk '{OFS="\t";print $2}' > $stc_log
 
 #--server 8211 is CDLAN Srl Milan 95.157.69.67
 #--server 2824 is H3G Milan 62.13.169.228
